@@ -1,0 +1,14 @@
+//
+//
+//	main.scss
+//
+//		- Main SCSS file that collects all
+//		  the partials and other SCSS files.
+//		  Compiles into ../css/main.css
+//
+@import "bourbon/bourbon";
+@import "base/base";
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/layout";
+@import "partials/base";

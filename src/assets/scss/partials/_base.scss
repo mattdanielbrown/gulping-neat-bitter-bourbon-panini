@@ -1,0 +1,188 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body {
+    //background: ghostwhite;
+    background: #f2f0fd;
+    //header {
+    //    margin: 0;
+    //    margin-top: 5rem;
+    //    margin-bottom: 2rem;
+    //    width: 100%;
+    //    padding: 0;
+    //
+    //    text-align: center;
+    //
+    //    h1 {
+    //        font-size: modular-scale(4);
+    //    }
+    //}
+}
+
+//body>header {
+//    margin: 4rem 0 4rem;
+//    width: 100%;
+//    padding: 0;
+//
+//    text-align: center;
+//
+//    h1 {
+//        font-size: modular-scale(5);
+//        font-weight: 700;
+//        margin-top: 0;
+//        margin-bottom: 1rem;
+//    }
+//    h3 {
+//        margin-top: 0;
+//        letter-spacing: 1px;
+//        font-weight: 300;
+//    }
+//}
+body>header {
+    z-index: 100;
+    //background: #3e3a3a;
+    background: #efeef8;
+    //color: white;
+    color: #233f49;
+    //margin: 4rem 0 4rem;
+    //margin-bottom: 2rem;
+    min-height: 300px;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    -webkit-box-shadow: 0 10px 50px rgba(#000, 0.1);
+    -moz-box-shadow: 0 10px 50px rgba(#000, 0.1);
+    box-shadow: 0 10px 50px rgba(#000, 0.1);
+
+    h1 {
+        font-size: modular-scale(5);
+        font-weight: 700;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        //text-shadow: 0 2px 5px rgba(#000, 0.2);
+        text-shadow: 0 2px 4px rgba(#000, 0.5);
+    }
+    h3 {
+        text-shadow: 0 2px 3px rgba(#000, 0.3);
+        margin-top: 0;
+        margin-bottom: 0;
+        letter-spacing: 1px;
+        font-weight: 300;
+    }
+    position: relative;
+}
+body>footer {
+    min-height: 50px;
+    width: 100%;
+    //background: #dfdfdf;
+    background: #d4d2dd;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    margin: auto 0;
+    padding: auto 0;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    ul {
+        //border: red solid thin;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        vertical-align: middle;
+        li {
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            display: inline-block;
+            //margin: 1rem;
+            margin: auto;
+            a {
+                font-size: modular-scale(-2);
+                vertical-align: middle;
+                text-align: center;
+                margin: auto;
+                color: slategray;
+            }
+        }
+    }
+}
+
+nav {
+    z-index: 1;
+    background: #efeef8;
+    width: 100%;
+    //height: 100%;
+    -webkit-box-shadow: 0 5px 40px rgba(#000, 0.1);
+    -moz-box-shadow: 0 5px 40px rgba(#000, 0.1);
+    box-shadow: 0 5px 40px rgba(#000, 0.1);
+    padding: 2rem;
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+        li {
+            display: inline-block;
+            a {
+
+            }
+        }
+    }
+}
+
+.container {
+    width: 80%;
+    max-width: 960px;
+    margin: auto;
+}
+
+h1 {
+    font-size: modular-scale(3);
+}
+h2 {
+    font-size: modular-scale(2);
+}
+h3 {
+    font-size: modular-scale(1);
+}
+h4 {
+    font-size: modular-scale(0);
+}
+h5 {
+    font-size: modular-scale(-2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: darkgray;
+    font-weight: 300;
+}
+
+article {
+    margin-bottom: 4rem;
+
+    .container {
+        footer {
+            a {
+                font-size: modular-scale(-1);
+                margin-right: 2rem;
+            }
+        }
+    }
+}
