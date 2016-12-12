@@ -18,3 +18,9 @@ That being said, the overall structure is messy, there is a lot of unused stuff,
 
   
 But all in all, good learning experience. I made a repo just to have as future reference.
+
+## Screenshots
+Because, why not.
+
+![Screenshot 1 of the product](gulp-neat-bourbon-bitter-panini_screenshot-1.jpg)
+![Screenshot 2 of the product](gulp-neat-bourbon-bitter-panini_screenshot-2.jpg)
