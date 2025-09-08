@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.18.5",
+    "browser-sync": "^3.0.4",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.0.0",
     "gulp-uglify": "^2.0.0",
